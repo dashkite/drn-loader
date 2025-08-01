@@ -24,7 +24,6 @@ Resolvers =
     if drn?.loader?.presets?
       qnames = [ qnames..., drn.loader.presets... ]
     for qname in qnames
-      console.log { qname }
       require require.resolve qname, 
         paths: [ "./node_modules" ]
 
