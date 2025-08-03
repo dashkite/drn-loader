@@ -22,8 +22,8 @@ Resolvers =
       .keys pkg.devDependencies
       .filter ( qname ) -> Pkg.isPreset qname
     if drn?.loader?.presets?
-      qnames = [ qnames..., drn.loader.presets... ]
-    for qname in qnames
+      qnames = new Set [ qnames..., drn.loader.presets... ]
+    for qname from qnames
       require require.resolve qname, 
         paths: [ "./node_modules" ]
 
