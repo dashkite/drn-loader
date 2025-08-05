@@ -27,8 +27,8 @@ importers:
         specifier: ^0.9.0
         version: 0.9.0
       '@dashkite/genie-release':
-        specifier: link:../genie-release
-        version: link:../genie-release
+        specifier: ^0.4.3
+        version: 0.4.3
 
 packages:
 
@@ -594,6 +594,9 @@ packages:
   '@dashkite/genie-coffee@0.9.0':
     resolution: {integrity: sha512-8Ukg3m/nQnxbmrww313lzYJJQRAxhRgbPpbqCWj7ovzS8LejoA1OGbbjRd8Ew7SdzZrJ6WYY7d08VxIbim72mw==}
 
+  '@dashkite/genie-release@0.4.3':
+    resolution: {integrity: sha512-9qqf7L80jmrRDPw0vhb475ed3hMDPWU782pH0bos4DdjyyObVHZePf26tgaeO9YSaFu4UC/RURxKKh+XmlqOIw==}
+
   '@dashkite/genie@0.20.8':
     resolution: {integrity: sha512-zpKtzW1hIjAOQvCr+92FlKhbHZTqLYyiumLAl8R+tX4BkmBcarhEccaGBsq0it023afAYzChLrg6r4Cduunanw==}
     engines: {node: '>=20.0.0'}
@@ -619,6 +622,15 @@ packages:
 
   '@dashkite/masonry@0.13.0':
     resolution: {integrity: sha512-qGP0Ortn8tzBTY9BRv965V5IIhJCmsNMTjLq0X7Pk80lBgNROc+tV/5BXjziBZ9CG7fcJ5h3ZvCsl1f6byfsFQ==}
+
+  '@dashkite/zephyr@0.12.1':
+    resolution: {integrity: sha512-84wSTbmFpI+tydtzTkMT6FS5ybnNaL4V40fA2c235/UPx/Whg3NRr6BaVLW53+v+bHL6fDbttCTZNNLEtzTxPw==}
+
+  '@deno/shim-deno-test@0.5.0':
+    resolution: {integrity: sha512-4nMhecpGlPi0cSzT67L+Tm+GOJqvuk8gqHBziqcUQOarnuIax1z96/gJHCSIz2Z0zhxE6Rzwb3IZXPtFh51j+w==}
+
+  '@deno/shim-deno@0.19.2':
+    resolution: {integrity: sha512-q3VTHl44ad8T2Tw2SpeAvghdGOjlnLPDNO2cpOxwMrBE/PVas6geWpbpIgrM+czOCH0yejp0yi8OaTuB+NU40Q==}
 
   '@eslint-community/eslint-utils@4.7.0':
     resolution: {integrity: sha512-dyybb3AcajC7uha6CvhdVRJqaKyn7w2YKqKyAN37NKYgZT36w+iRb0Dymmc5qEJ549c/S31cMMSFd75bteCpCw==}
@@ -863,6 +875,9 @@ packages:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
+  dax-sh@0.43.2:
+    resolution: {integrity: sha512-uULa1sSIHgXKGCqJ/pA0zsnzbHlVnuq7g8O2fkHokWFNwEGIhh5lAJlxZa1POG5En5ba7AU4KcBAvGQWMMf8rg==}
+
   dayjs@1.11.13:
     resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
 
@@ -1065,6 +1080,10 @@ packages:
 
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+
+  isexe@3.1.1:
+    resolution: {integrity: sha512-LpB/54B+/2J5hqQ7imZHfdU31OlgQqx7ZicVlkm9kzg9/w8GKLEcFfJl/t7DCEDueOyBAD6zCCwTO6Fzs0NoEQ==}
+    engines: {node: '>=16'}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -1308,6 +1327,9 @@ packages:
     resolution: {integrity: sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==}
     engines: {node: '>=10'}
 
+  undici-types@5.28.4:
+    resolution: {integrity: sha512-3OeMF5Lyowe8VW0skf5qaIE7Or3yS9LS7fvMUI0gg4YxpIBVg0L8BxCmROw2CcYhSkpR68Epz7CGc8MPj94Uww==}
+
   unicode-canonical-property-names-ecmascript@2.0.1:
     resolution: {integrity: sha512-dA8WbNeb2a6oQzAQ55YlT5vQAWGV9WXOsi3SskE3bcCdM0P4SDd+24zS/OCacdRq5BkdsRj9q3Pg6YyQoxIGqg==}
     engines: {node: '>=4'}
@@ -1336,6 +1358,11 @@ packages:
   which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
+    hasBin: true
+
+  which@4.0.0:
+    resolution: {integrity: sha512-GlaYyEb07DPxYCKhKzplCWBJtvxZcZMrL+4UkrTSJHHPyZU4mYYTv3qaOe77H7EODLSSopAUFAc6W8U4yqvscg==}
+    engines: {node: ^16.13.0 || >=18.0.0}
     hasBin: true
 
   word-wrap@1.2.5:
@@ -2102,6 +2129,11 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
+  '@dashkite/genie-release@0.4.3':
+    dependencies:
+      '@dashkite/zephyr': 0.12.1
+      dax-sh: 0.43.2
+
   '@dashkite/genie@0.20.8':
     dependencies:
       '@dashkite/joy': 0.7.0
@@ -2147,6 +2179,18 @@ snapshots:
       fast-glob: 3.3.3
     transitivePeerDependencies:
       - supports-color
+
+  '@dashkite/zephyr@0.12.1':
+    dependencies:
+      '@dashkite/joy': 0.7.0
+      js-yaml: 4.1.0
+
+  '@deno/shim-deno-test@0.5.0': {}
+
+  '@deno/shim-deno@0.19.2':
+    dependencies:
+      '@deno/shim-deno-test': 0.5.0
+      which: 4.0.0
 
   '@eslint-community/eslint-utils@4.7.0(eslint@8.57.1)':
     dependencies:
@@ -2380,6 +2424,11 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
+  dax-sh@0.43.2:
+    dependencies:
+      '@deno/shim-deno': 0.19.2
+      undici-types: 5.28.4
+
   dayjs@1.11.13: {}
 
   debug@4.4.1:
@@ -2597,6 +2646,8 @@ snapshots:
 
   isexe@2.0.0: {}
 
+  isexe@3.1.1: {}
+
   js-tokens@4.0.0: {}
 
   js-yaml@4.1.0:
@@ -2796,6 +2847,8 @@ snapshots:
 
   type-fest@0.20.2: {}
 
+  undici-types@5.28.4: {}
+
   unicode-canonical-property-names-ecmascript@2.0.1: {}
 
   unicode-match-property-ecmascript@2.0.0:
@@ -2820,6 +2873,10 @@ snapshots:
   which@2.0.2:
     dependencies:
       isexe: 2.0.0
+
+  which@4.0.0:
+    dependencies:
+      isexe: 3.1.1
 
   word-wrap@1.2.5: {}
 
