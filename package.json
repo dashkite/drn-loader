@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/drn-loader",
-  "version": "0.11.26",
+  "version": "0.11.27",
   "description": "Auto-loads DRN resolvers",
   "keywords": [],
   "homepage": "https://github.com/dashkite/drn-loader#readme",
